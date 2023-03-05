@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    background-color: none;
+    color: #1a1818;
+}
+
+/* .body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+} */
+
+.header {
+    display: flex;
+    max-width: 90%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.main {
+
+    width: 30%;
+    margin: auto;
+    background-color: none;
+    margin-top: 25%;
+}
+
+.nav {
+    background-color: none;
+}
+
+.nav ul li a {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 7rem;
+    text-transform: uppercase; /*transforma todas las letras en este caso a mayusculas */ 
+    color: #1a1818;  
+}
+
+.nav ul li a:hover {
+    font-style:oblique; /* colocarias el tipo de letra cursiva o con el estilo que quieres que se vea cuando pasen el cursos por encima*/
+    transition: 0.5s; /* aqui ajusta la velocidad de l atransision */
+}
+
+/* Buscar el tipo de letra que se quiera y agregar en  ".nas ul li a{", 
+asegurarse de que tenga un version cursiva para colocar en ".nav ul li a:hover{"
+y asi darle movimiento*/
+
+.nav-left{
+    position:absolute;
+    text-transform: uppercase;
+    left:2%;
+    bottom: 40%;
+    display: flex;
+}
+
+.icons{
+    font-size: 0.7rem;
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+
+}
+.copyright{
+    font-size: 0.7rem;
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+}
