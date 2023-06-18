@@ -85,21 +85,17 @@ main {
     background-color: #fbfbfb;
 }
 
-
-
 .avatar-profile {
     display: flex;
     justify-content: center;
     max-width: 100%;
     width: 400px;
     margin: 0px auto;
-    border-radius: 70%;
+    border-radius: 50%;
     overflow: hidden;
     margin-top: 14vh;
     border: 1px solid rgba(175, 89, 158, 0.3);
 } 
-
-
 
 #Welcome {
     width: 100%;
