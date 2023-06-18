@@ -13,7 +13,6 @@
     width: 20%;
     height: 10vh;
     justify-content: left;
-
 }
 
 nav {
@@ -177,8 +176,6 @@ main {
     width: 50px;
 
 }
-
-
 
 .footer-copyright {
     display: flex;
