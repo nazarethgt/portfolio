@@ -206,7 +206,7 @@ footer p{
     height: 50px;
     border-radius: 15px;
     border: none;
-    background-color: #fbfbff;
+    background-color: transparent;
     color: #000;
     -webkit-box-shadow:  5px 5px 10px 0px rgba(15, 62, 91, 1);
     -moz-box-shadow:  5px 5px 10px 0px rgba(15, 62, 91, 1);
@@ -219,7 +219,7 @@ footer p{
 
 .btn-moreinfo:hover {
     cursor: pointer;
-    background-color: transparent;
+    background-color: #fbfbff;
   
 }
 
@@ -288,7 +288,6 @@ footer p{
     height: 50px;
     display: flex;
     justify-content: space-around;
-    /* bottom: 10px; */
 }
 
 .btn-block a {
